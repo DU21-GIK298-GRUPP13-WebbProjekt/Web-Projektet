@@ -1,0 +1,43 @@
+* {
+    border: 1px solid black;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+nav {
+    background-color: lightcyan;
+}
+
+nav a {
+    background-color: lavender;
+}
+
+main {
+    background-color: orchid;
+}
+
+h2 {
+    background-color: mediumorchid;
+}
+
+p {
+    background-color: moccasin;
+}
+
+footer {
+    background-color: plum;
+}
+
+footer ul {
+    background-color: lightseagreen;
+}
+
+footer li {
+    background-color: paleturquoise;
+}
+
+footer a {
+    background-color: thistle;
+}
