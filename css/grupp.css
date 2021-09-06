@@ -43,6 +43,61 @@ footer a {
     background-color: thistle;
 }
 
+/* ----- CSS NEDAN ÄR FÖR HEADER OCH NAV ----------- */
+header{
+    background-color: lightpink;
+    width: 1280px;
+    height: 150px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header h1{
+    font-size: 500%;
+}
+nav{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 1280px;
+    height: 45px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    
+}
+.nav_group{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1200px;
+    height: 45px;
+}
+.nav_link{
+    height: 45px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav a{
+    font-size: 120%;
+}
+nav a:link{
+    color: black;
+    text-decoration: none;
+}
+nav a:visited{
+    color: black;
+    text-decoration: none;
+}
+nav a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
 /* ----- CSS NEDAN ÄR FÖR SEKTIONEN MAIN CONTENT ----------- */
 
 .main_content {
