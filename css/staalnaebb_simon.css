@@ -7,7 +7,7 @@ html, body {
 
 body {
   box-sizing:border-box;
-  background-image: url(media/background.jpg);
+  background-image: url(../img/background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -15,7 +15,6 @@ body {
 
 .header-nav {
   display: flex;
-  align-items: flex-end;
   height: 5rem;
 }
 
@@ -34,25 +33,30 @@ body {
   color: black;
   background-color: rgba(120, 197, 120, 0.5);
   border-style: solid;
-  border-bottom-right-radius: 10px;
+  margin-left: 18.2%;
+  border-right-style: none;
+  border-bottom-left-radius: 10px;
 }
 
 .header-members {
   display: flex;
   border-style: solid;
-  border-bottom-left-radius: 10px;
   background-color: rgba(120, 197, 120, 0.5);
+  margin-right: 60%;
+  padding: 0 1rem;
+  border-bottom-right-radius: 10px;
 }
 
 .member {
   display: block;
   padding: 1rem 1rem;
   color: black;
+  padding-left: 4.39rem;
+  padding-right: 4.39rem;
 }
 
 .member:hover, .current {
     box-shadow: inset 0 -0.3rem #8f78c5c9;
-    
 }
 
 .member-start:hover {
@@ -60,12 +64,15 @@ body {
   padding: 1rem 1rem;
   color: black;
   border-bottom-left-radius: 7px;
+  padding-left: 4.39rem;
+  padding-right: 4.39rem;
 }
 
 .content-body {
   top: 15%;
   left: 15%;
   max-width: 1200px;
+  height: 765px;
   background-color: rgba(211, 211, 211, 0.8);
   border-radius: 10px;
   margin: auto;
@@ -87,7 +94,7 @@ body {
 }
 
 .scrollable {
-  max-height: 600px;
+  max-height: 670px;
   overflow: auto;
 }
 
@@ -104,8 +111,8 @@ body {
   position: absolute;
   display: flex;
   align-items: center;
-  bottom: 0;
-  right: 0;
+  bottom: 0%;
+  right: 18.3%;
   justify-content: space-between;
   font-size: 1rem;
 }
@@ -123,8 +130,15 @@ body {
   display: block;
   padding: 1rem 1rem;
   color: black;
-  background-color: rgba(211, 211, 211, 0.8);
+  background-color: rgba(120, 197, 120, 0.5);
   border-style: solid;
   border-right: none;
   border-left: none;
+  padding-left: 4.25rem;
+  padding-right: 4.25rem;
+}
+
+.footer:last-child {
+  border-top-right-radius: 10px;
+  border-right: solid;
 }
