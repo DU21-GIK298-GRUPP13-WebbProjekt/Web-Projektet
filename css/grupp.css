@@ -45,7 +45,7 @@ footer a {
 
 /* ----- CSS NEDAN ÄR FÖR HEADER OCH NAV ----------- */
 header{
-    background-color: lightpink;
+    background-color: #A2E1DB;
     width: 1280px;
     height: 150px;
     margin: 10px auto;
@@ -55,6 +55,7 @@ header{
 }
 header h1{
     font-size: 500%;
+    color: #FFDBCC;
 }
 nav{
     margin: 0 auto;
@@ -62,6 +63,7 @@ nav{
     width: 1280px;
     height: 45px;
     justify-content: center;
+    background-color: #A2E1DB;
 }
 .container{
     display: flex;
@@ -84,18 +86,19 @@ nav{
 }
 nav a{
     font-size: 120%;
+    color: #FFDBCC;
 }
 nav a:link{
-    color: black;
+    color: #FFDBCC;
     text-decoration: none;
 }
 nav a:visited{
-    color: black;
+    color: #FFDBCC;
     text-decoration: none;
 }
 nav a:hover{
-    color: black;
-    background-color: darkgray;
+    color: #FFDBCC;
+    background-color: grey;
 }
 
 /* ----- CSS NEDAN ÄR FÖR SEKTIONEN MAIN CONTENT ----------- */
