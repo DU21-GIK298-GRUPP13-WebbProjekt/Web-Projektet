@@ -12,7 +12,7 @@ nav {
 }
 
 nav a {
-    background-color: lavender;
+    
 }
 
 main {
@@ -59,21 +59,21 @@ header h1{
 nav{
     margin: 0 auto;
     display: flex;
-    justify-content: center;
     width: 1280px;
     height: 45px;
+    justify-content: center;
 }
 .container{
     display: flex;
-    align-items: center;
-    
+    width: 1280px;
+    justify-content: space-around;
 }
 .nav_group{
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    width: 1200px;
+    width: 1000px;
     height: 45px;
+    justify-content: space-between;
 }
 .nav_link{
     height: 45px;
@@ -95,7 +95,7 @@ nav a:visited{
 }
 nav a:hover{
     color: black;
-    text-decoration: underline;
+    background-color: darkgray;
 }
 
 /* ----- CSS NEDAN ÄR FÖR SEKTIONEN MAIN CONTENT ----------- */
