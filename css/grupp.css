@@ -9,6 +9,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: content-box;
 }
 footer {
     height: 200px;
@@ -92,60 +93,44 @@ nav a:hover{
 .main_content {
     display:grid;
     grid-template: repeat(12, 1fr) / repeat(5, 1fr);
-    margin: 0 auto;
+    margin: 2rem auto;
     width: 1280px;
     height: 1600px;
     padding: 0 60px;
     font-family: Calibri;
     color: var(--text);
 }
-.member1 {
-    grid-area: 1 / 1 / 3/6;
+.group_member {
+    overflow-y: hidden;
     display: flex;
     justify-content: space-around;
     padding: 15px 15px;
-    margin-top: 20px;
-    border-bottom: 2px solid gray;
+    margin-top: 3rem;
+}
+p::selection, h4::selection {
+    color: var(--main);
+    background-color: var(--text);
+}
+
+.member1 {
+    grid-area: 1 / 1 / 3/6;
 }
 .member2 {
     grid-area: 3 / 1 / 5/6;
-    display: flex;
-    justify-content: space-around;
-    padding: 15px 15px;
-    margin-top: 20px;
-    border-bottom: 2px solid gray;
 }
 .member3 {
     grid-area: 5 / 1 / 7/6;
-    display: flex;
-    justify-content: space-around;
-    padding: 15px 15px;
-    margin-top: 20px;
-    border-bottom: 2px solid gray;
 }
 .member4 {
     grid-area: 7 / 1 / 9/6;
-    display: flex;
-    justify-content: space-around;
-    padding: 15px 15px;
-    margin-top: 20px;
-    border-bottom: 2px solid gray;
 }
 .member5 {
     grid-area: 9 / 1 / 11/6;
-    display: flex;
-    justify-content: space-around;
-    padding: 15px 15px;
-    margin-top: 20px;
-    border-bottom: 2px solid gray;
 }
 .member6 {
     grid-area: 11 / 1 / 13 /6;
-    display: flex;
-    justify-content: space-around;
-    padding: 15px 15px;
-    margin-top: 20px;
 }
+
 .member_info {
     width: 50%;
     height: 90%;
@@ -158,57 +143,62 @@ nav a:hover{
 }
 
 .member_image1 {
-    width: 30%;
-    height: 100%;
+    width: 15rem;
+    height: 14rem;
     background-image: url(../img/face_placeholder.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     order: -1;
     border-radius: 75px / 75px;
     
 }
 .member_image2 {
-    width: 20%;
-    height: 100%;
+    width: 15rem;
+    height: 14rem;
     background-image: url(../img/face_placeholder.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     order: 1;
+    border-radius: 75px / 75px;
     
 }
 .member_image3 {
-    width: 20%;
-    height: 100%;
+    width: 15rem;
+    height: 14rem;
     background-image: url(../img/face_placeholder.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     order: -1;
+    border-radius: 75px / 75px;
     
 }
 .member_image4 {
-    width: 20%;
+    width: 15rem;
     height: 100%;
     background-image: url(../img/face_placeholder.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     order: 1;
+    border-radius: 75px / 75px;
     
 }
 .member_image5 {
-    width: 20%;
-    height: 100%;
+    width: 15rem;
+    height: 14rem;
     background-image: url(../img/face_placeholder.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     order: -1;
+    border-radius: 75px / 75px;
     
 }
 .member_image6 {
-    width: 20%;
-    height: 100%;
+    width: 15rem;
+    height: 14rem;
     background-image: url(../img/face_placeholder.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     order: 1;
+    border-radius: 75px / 75px;
     
 }
