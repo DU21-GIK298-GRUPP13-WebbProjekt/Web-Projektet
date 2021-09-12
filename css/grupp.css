@@ -145,7 +145,7 @@ p::selection, h4::selection {
 .member_image1 {
     width: 15rem;
     height: 14rem;
-    background-image: url(../img/face_placeholder.png);
+    background-image: url(../img/face_placeholder.webp);
     background-size: cover;
     background-repeat: no-repeat;
     order: -1;
@@ -155,7 +155,7 @@ p::selection, h4::selection {
 .member_image2 {
     width: 15rem;
     height: 14rem;
-    background-image: url(../img/face_placeholder.png);
+    background-image: url(../img/face_placeholder.webp);
     background-size: cover;
     background-repeat: no-repeat;
     order: 1;
@@ -165,7 +165,7 @@ p::selection, h4::selection {
 .member_image3 {
     width: 15rem;
     height: 14rem;
-    background-image: url(../img/face_placeholder.png);
+    background-image: url(../img/face_placeholder.webp);
     background-size: cover;
     background-repeat: no-repeat;
     order: -1;
@@ -175,7 +175,7 @@ p::selection, h4::selection {
 .member_image4 {
     width: 15rem;
     height: 100%;
-    background-image: url(../img/face_placeholder.png);
+    background-image: url(../img/face_placeholder.webp);
     background-size: cover;
     background-repeat: no-repeat;
     order: 1;
@@ -185,7 +185,7 @@ p::selection, h4::selection {
 .member_image5 {
     width: 15rem;
     height: 14rem;
-    background-image: url(../img/face_placeholder.png);
+    background-image: url(../img/face_placeholder.webp);
     background-size: cover;
     background-repeat: no-repeat;
     order: -1;
@@ -195,7 +195,7 @@ p::selection, h4::selection {
 .member_image6 {
     width: 15rem;
     height: 14rem;
-    background-image: url(../img/face_placeholder.png);
+    background-image: url(../img/face_placeholder.webp);
     background-size: cover;
     background-repeat: no-repeat;
     order: 1;
