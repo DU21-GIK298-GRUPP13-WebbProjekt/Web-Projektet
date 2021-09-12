@@ -1,3 +1,4 @@
+/** Remove Padding and Margin **/
 body {
   padding: 0;
   margin: 0;
@@ -8,7 +9,7 @@ body {
 .header_grid_container {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto auto;
-  background-color: rgba(40, 40, 40, 0.8);
+  background-color: rgba(44, 44, 44, 0.8);
 }
 
 /** Grid Item **/
@@ -29,7 +30,7 @@ body {
 .nav_group {
   display: grid;
   grid-template-columns: auto;
-  background-color: rgba(55, 55, 55, 0.8);
+  background-color: rgba(66, 66, 66, 0.8);
 }
 
 /** Nav Group Styling **/
@@ -54,7 +55,7 @@ body {
 .nav_grid_container {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto;
-  background-color: rgba(77, 77, 77, 0.8);
+  background-color: rgba(88, 88, 88, 0.8);
 }
 
 /** Nav Grid Item **/
@@ -73,7 +74,7 @@ body {
   justify-content: center;
   color: whitesmoke;
   border-style:solid;
-  border-color: rgb(29, 29, 29, 0.2);
+  border-color: rgb(22, 22, 22, 0.2);
   border-width: 1px 0px 1px 1px;
   padding-left: 5px;
   padding-right: 5px;
@@ -81,21 +82,24 @@ body {
 
 /** Current Nav Grid Item **/
 .nav_link_current {
-  box-shadow: inset 0 -0.3rem rgb(121, 121, 121);
+  box-shadow: inset 0 -0.3rem rgb(66, 66, 66);
   border-width: 1px 0px 1px 1px;
 }
 
+/** Main Content Container **/
 .content_container {
   display: grid;
   grid-template-columns: auto auto auto;
-  background-color: rgba(99, 99, 99, 0.8);
+  background-color: rgba(110, 110, 110, 0.8);
 }
 
+/** Main Content **/
 .main_content {
   align-items: center;
   justify-content: center;
 }
 
+/** Picture Content **/
 .picture {
   float: left;
   width: 20%;
@@ -103,17 +107,20 @@ body {
   border-radius: 10px;
 }
 
+/** Card Content **/
 .card {
-  background-color: rgba(143, 143, 143, 0.8);
+  background-color: rgba(166, 166, 166, 0.8);
   border-radius: 10px;
   padding-left: 10px;
   margin-left: 22%;
 }
 
+/** Final Card **/
 .card:last-child {
   margin-bottom: 16px;
 }
 
+/** Topic **/
 .topic {
   font-size: 20px;
   font-weight: bold;
@@ -123,29 +130,40 @@ body {
   margin-top: 13px;
 }
 
+/** Remove Paragraph Margin **/
 .text {
  margin: 0;
 }
 
+/** Centered Text + Margin Bottom 0 **/
 .text_centered {
   text-align: center;
   margin-bottom: 0px;
 }
 
+/** Create Scrollable Card Box **/
 .scrollable {
   max-height: 670px;
   overflow: auto;
 }
 
+/** Horizontal Line Fix **/
 .intro_hr {
   margin-right: 10px;
 }
 
+/** Ensure Links are Black and not Purple **/
+.link {
+  color: black;
+}
+
+/** Add Bottom-Padding to the Project Links **/
 .final_links {
   padding-bottom: 32px;
 }
 
+/** Spacer Styling **/
 .spacer {
-  background-color: rgba(99, 99, 99, 0.8);
+  background-color: rgba(110, 110, 110, 0.8);
   height: 8px;
 }
