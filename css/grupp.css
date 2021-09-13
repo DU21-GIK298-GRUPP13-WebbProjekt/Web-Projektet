@@ -11,10 +11,7 @@
     padding: 0;
     box-sizing: content-box;
 }
-footer {
-    height: 200px;
-    background-color: var(--bakgrund);
-}
+
 body {
     background-color: var(--main);
 }
@@ -201,4 +198,45 @@ p::selection, h4::selection {
     order: 1;
     border-radius: 75px / 75px;
     
+}
+
+/* ------ CSSen nedan är för footer ------- */
+.footer__list {
+    background-color: var(--footer);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 1280px;
+    height: 80px;
+    margin: 0 auto;
+    list-style-type: none;
+}
+
+.footer__item {
+    width: calc(100% / 3);
+}
+
+.footer__link {
+    display: block;
+    text-align: center;
+}
+
+.footer__link:link {
+    color:var(--text)
+}
+
+.footer__link:visited 
+{
+
+}
+
+.footer__link:hover 
+{
+    color: var(--main);
+}
+  
+.footer__link::active 
+{
+
 }
