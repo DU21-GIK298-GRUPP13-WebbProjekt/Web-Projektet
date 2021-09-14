@@ -19,6 +19,8 @@ nav {
     background-color: var(--bakgrund);
 }
 
+@font-face { font-family: Edwardian script ITC; src: url('../fonts/ITCEDSCR.TTF'); } 
+@font-face { font-family: Freestyle Script; src: url('../fonts/Freestyle Script.ttf'); } 
 
 
 /* ----- CSS NEDAN ÄR FÖR HEADER OCH NAV ----------- */
@@ -33,7 +35,7 @@ header{
     border-radius: 10px;
 }
 header h1{
-    font-size: 500%;
+    font-size: 550%;
     font-family: "Edwardian script ITC";
     color: var(--text);
 }
@@ -68,7 +70,7 @@ nav{
     border-radius: 10px;
 }
 nav a{
-    font-size: 120%;
+    font-size: 170%;
     font-family: "Freestyle script";
 }
 nav a:link{
