@@ -220,6 +220,7 @@ p::selection, h4::selection {
 .footer__link {
     display: block;
     text-align: center;
+    font-family: Calibri;
 }
 
 .footer__link:link {
