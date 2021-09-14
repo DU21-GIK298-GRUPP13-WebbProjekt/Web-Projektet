@@ -36,7 +36,7 @@ header{
 }
 header h1{
     font-size: 500%;
-    font-family: Edwardian script ITC;
+    font-family: "Edwardian script ITC";
     color: var(--text);
 }
 nav{
@@ -71,7 +71,7 @@ nav{
 }
 nav a{
     font-size: 120%;
-    font-family: Freestyle script;
+    font-family: "Freestyle script";
 }
 nav a:link{
     color: var(--text);
