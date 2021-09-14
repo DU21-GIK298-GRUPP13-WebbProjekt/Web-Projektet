@@ -114,6 +114,7 @@ p::selection, h4::selection {
     grid-area: 1/ 1 / 3 / 6;
     text-align: center;
     color: var(--text); 
+    border-bottom: 3px solid var(--bakgrund);
 }
 .group_name {
     text-transform: uppercase;
