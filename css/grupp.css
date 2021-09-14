@@ -36,7 +36,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 10px 10px;
+    border-radius: 10px;
 }
 header h1{
     font-size: 500%;
@@ -50,7 +50,7 @@ nav{
     height: 45px;
     justify-content: center;
     background-color: var(--bakgrund);
-    border-radius: 10px 10px;
+    border-radius: 10px;
 }
 .container{
     display: flex;
@@ -144,62 +144,59 @@ p::selection, h4::selection {
 
 .member_image1 {
     width: 15rem;
-    height: 14rem;
-    background-image: url(../img/face_placeholder.webp);
+    background-image: url(../img/jag.webp);
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     order: -1;
-    border-radius: 75px / 75px;
+    border-radius: 25px;
     
 }
 .member_image2 {
     width: 15rem;
-    height: 14rem;
     background-image: url(../img/face_placeholder.webp);
     background-size: cover;
     background-repeat: no-repeat;
     order: 1;
-    border-radius: 75px / 75px;
+    border-radius: 25px;
     
 }
 .member_image3 {
     width: 15rem;
-    height: 14rem;
     background-image: url(../img/face_placeholder.webp);
     background-size: cover;
     background-repeat: no-repeat;
     order: -1;
-    border-radius: 75px / 75px;
+    border-radius: 25px;
     
 }
 .member_image4 {
     width: 15rem;
-    height: 100%;
-    background-image: url(../img/face_placeholder.webp);
+    background-image: url(../img/leo.webp);
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     order: 1;
-    border-radius: 75px / 75px;
+    border-radius: 25px;
     
 }
 .member_image5 {
     width: 15rem;
-    height: 14rem;
     background-image: url(../img/face_placeholder.webp);
     background-size: cover;
     background-repeat: no-repeat;
     order: -1;
-    border-radius: 75px / 75px;
+    border-radius: 25px;
     
 }
 .member_image6 {
     width: 15rem;
-    height: 14rem;
-    background-image: url(../img/face_placeholder.webp);
+    background-image: url(../img/selfie_1.webp);
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     order: 1;
-    border-radius: 75px / 75px;
+    border-radius: 25px;
     
 }
 
