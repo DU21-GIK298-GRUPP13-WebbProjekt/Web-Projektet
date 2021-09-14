@@ -21,10 +21,6 @@ nav {
     background-color: var(--bakgrund);
 }
 
-nav a {
-    
-}
-
 
 
 /* ----- CSS NEDAN ÄR FÖR HEADER OCH NAV ----------- */
@@ -56,6 +52,7 @@ nav{
     display: flex;
     width: 1280px;
     justify-content: space-around;
+    align-items: center;
 }
 .nav_group{
     display: flex;
@@ -65,11 +62,12 @@ nav{
     justify-content: space-between;
 }
 .nav_link{
-    height: 45px;
+    height: 35px;
     width: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 10px;
 }
 nav a{
     font-size: 120%;
