@@ -170,3 +170,7 @@ body {
   background-color: rgba(110, 110, 110, 0.8);
   height: 8px;
 }
+
+.footer_links {
+  text-transform: lowercase;
+}
