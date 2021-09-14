@@ -166,9 +166,10 @@ p::selection, h4::selection {
 }
 .member_image2 {
     width: 15rem;
-    background-image: url(../img/face_placeholder.webp);
+    background-image: url(../img/anna.webp);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: 0px -40px;
     order: 1;
     border-radius: 25px;
     
