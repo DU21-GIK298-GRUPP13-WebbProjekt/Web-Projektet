@@ -104,6 +104,7 @@ body {
   float: left;
   width: 20%;
   margin: 10px;
+  margin-top: 13px;
   border-radius: 10px;
 }
 
@@ -133,6 +134,7 @@ body {
 /** Remove Paragraph Margin **/
 .text {
  margin: 0;
+ margin-bottom: 2px;
 }
 
 /** Centered Text + Margin Bottom 0 **/
@@ -150,6 +152,7 @@ body {
 /** Horizontal Line Fix **/
 .intro_hr {
   margin-right: 10px;
+  color: black;
 }
 
 /** Ensure Links are Black and not Purple **/
