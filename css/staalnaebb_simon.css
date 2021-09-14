@@ -175,6 +175,8 @@ body {
   text-transform: lowercase;
 }
 
-.validated {
-  margin: 0px;
+.validated_icon {
+  border-width: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
