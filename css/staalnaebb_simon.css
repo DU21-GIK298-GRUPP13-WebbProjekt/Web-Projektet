@@ -168,9 +168,13 @@ body {
 /** Spacer Styling **/
 .spacer {
   background-color: rgba(110, 110, 110, 0.8);
-  height: 8px;
 }
 
+/** Footer Links -> Lower-Case **/
 .footer_links {
   text-transform: lowercase;
+}
+
+.validated {
+  margin: 0px;
 }
