@@ -2,8 +2,6 @@
     --bakgrund: #d3b1c2;
     --text: #382a40;    
     --main: #f3ece7;
-    --footer: #c197d2;
-   
 }
 
 * {
@@ -214,7 +212,7 @@ p::selection, h4::selection {
 
 /* ------ CSSen nedan är för footer ------- */
 .footer__list {
-    background-color: var(--footer);
+    background-color: var(--bakgrund);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
