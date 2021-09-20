@@ -2,6 +2,14 @@
 body {
   padding: 0;
   margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  background-color: rgba(110, 110, 110, 0.8);
+  flex-grow: 1;
 }
 
 /** Header CSS **/
@@ -53,8 +61,7 @@ body {
 
 /** Nav Grid Container **/
 .nav_grid_container {
-  display: grid;
-  grid-template-columns: auto auto auto auto auto auto;
+  display: flex;
   background-color: rgba(88, 88, 88, 0.8);
 }
 
@@ -78,6 +85,7 @@ body {
   border-width: 1px 0px 1px 1px;
   padding-left: 5px;
   padding-right: 5px;
+  flex: 1 1 0px;
 }
 
 /** Current Nav Grid Item **/
@@ -86,25 +94,18 @@ body {
   border-width: 1px 0px 1px 1px;
 }
 
-/** Main Content Container **/
-.content_container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  background-color: rgba(110, 110, 110, 0.8);
-}
-
 /** Main Content **/
 .main_content {
-  align-items: center;
-  justify-content: center;
+  margin: auto;
+  width: 1200px;
 }
 
 /** Picture Content **/
 .picture {
   float: left;
-  width: 20%;
+  width: 250px;
   margin: 10px;
-  margin-top: 13px;
+  margin-top: 0;
   border-radius: 10px;
 }
 
@@ -113,7 +114,7 @@ body {
   background-color: rgba(166, 166, 166, 0.8);
   border-radius: 10px;
   padding-left: 10px;
-  margin-left: 22%;
+  margin-left: 275px;
 }
 
 /** Final Card **/
@@ -173,10 +174,17 @@ body {
 /** Footer Links -> Lower-Case **/
 .footer_links {
   text-transform: lowercase;
+  border-left: 0px;
 }
 
 .validated_icon {
+  position: relative;
   border-width: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
+}
+
+.validated_icon a img {
+  position: absolute;
+  transform: translateY(-50%);
 }
