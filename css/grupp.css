@@ -156,7 +156,7 @@ p::selection, h4::selection {
 
 .member_image1 {
     width: 15rem;
-    background-image: url(../img/jag.webp);
+    background-image: url(../img/alex.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -195,7 +195,7 @@ p::selection, h4::selection {
 }
 .member_image5 {
     width: 15rem;
-    background-image: url(../img/face_placeholder.webp);
+    background-image: url(../img/Jam.webp);
     background-size: cover;
     background-repeat: no-repeat;
     order: -1;
