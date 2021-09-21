@@ -1,0 +1,223 @@
+@font-face 
+{
+    font-family: Verdana; src: url(../fonts/verdana.ttf);
+}
+
+:root 
+{
+    --main_background_color: rgb(249, 250, 251);
+    --color_white: hsl(210,14%,89%);
+    --max_width: 960px;
+    
+    --subtitle_color: rgba(34, 34, 34, 1);
+    --text_color: rgba(34, 34, 34, 1);
+
+    --main_color: #0B95DA;
+    --main_color_light: rgb(161, 193, 252);
+}
+
+
+* 
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html 
+{
+    font-size: 15px;
+    font-family: Verdana;
+}
+
+body 
+{
+    background-image: url(../img/harald_background.png);
+}
+
+.container 
+{
+    width: var(--max_width);
+    margin: 0 auto;
+}
+
+/* -- NAV -- */
+nav 
+{
+    background-color: var(--main_color);
+    width: var(--max_width);
+    margin:  auto;
+    border-radius: 10px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+	border:1px solid var(--grey);
+
+    box-shadow: 5px 10px 10px 9px rgba(0,0,0,0.15);
+}
+
+.nav_links 
+{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.3rem;
+    padding: 0 5rem;
+}
+
+.nav_group 
+{
+    display: flex;
+}
+
+.nav_link 
+{
+    display: block;
+    text-decoration: none;
+    padding: 1rem 1rem;
+    color: var(--color_white);
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    background-color: var(--main_color_light);
+}
+
+.nav_link::selection 
+{
+    background-color: var(--color_white);
+    color: var(--footergrey);
+}
+
+.nav_link_current 
+{
+    color: var(--subtitle_color);
+}
+
+.nav_link:hover
+{
+    color: var(--main_background_color);
+}
+
+
+/* -- MAIN -- */
+main 
+{
+    margin-bottom: 10px;
+}
+
+.main_content 
+{
+    background-color: var(--main_background_color);
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    width: var(--max_width);
+
+    display: grid;
+    margin: 0 auto;
+    box-shadow: 5px 10px 10px 9px rgba(0,0,0,0.15);
+
+    border-radius: 10px;
+}
+
+.main_content_subtitle
+{
+    padding-top: 5px;
+    padding-bottom: 0.5rem;
+    text-align: center;
+
+    color: var(--subtitle_color);
+}
+
+.main_text
+{
+    padding-top: 5px;
+}
+
+.picture_me
+{
+    width: 30rem;
+    height: 25rem;
+    background-image: url(../img/harald.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.picture_work
+{
+    width: 30rem;
+    height: 26rem;
+    background-image: url(../img/lostlight20.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.main_element
+{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    letter-spacing: 1.5px;
+    color: var(--text_color);
+}
+
+.earlier_work_link
+{
+    color: var(--main_color);
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+.earlier_work_link:hover
+{
+    color: var(--main_color_light);
+}
+
+.earlier_work_paragraph
+{
+    padding-top: 0.1rem;
+    padding-bottom: 1.5rem;
+    margin: auto;
+}
+
+/* -- FOOTER -- */
+footer 
+{
+    width: var(--max_width);
+    margin: auto;
+    background-color: var(--main_color);
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px 9px rgba(0,0,0,0.15);
+}
+
+.contact_info 
+{
+    display: flex;
+    align-items: center;
+    height: 4.5rem;
+}
+
+.email_link 
+{
+    font-size: 1.7rem;
+    color: var(--color_white);
+    text-decoration: none;
+
+    margin-right: auto;
+    margin: 0 auto;
+}
+
+.email_link:hover 
+{
+    text-decoration: underline;
+}
