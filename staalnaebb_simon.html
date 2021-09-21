@@ -1,22 +1,25 @@
 <!doctype html>
 <html lang="sv">
 
+<!-- Hello Alexander, if you are reading this then you should know this site was developed at 100% zoom on Firefox at a screen resolution of 1920:1080-->
 <head>
   <meta charset="UTF-8">
   <title>Stålnäbb Simon</title>
   <meta name="author" content="Simon Stålnäbb">
-  <meta name="description" content="Information om H21 Student Simon Stålnäbb i Kurs GIK298">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" sizes="16x16 32x32" href="./hda_logotype.ico">
+  <meta name="description" content="Information om H21 Student Simon Stålnäbb i Kurs GIK298" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" type="image/x-icon" sizes="16x16 32x32" href="./hda_logotype.ico" />
   <link rel="stylesheet" href="./css/staalnaebb_simon.css" />
 </head>
 
 <body>
   <!-- Header Navigation -->
   <header>
-    <div class="header_grid_container">
+    <!-- Yes I know I have a Grid with Empty Elements, I wanted to try Grids okey -->
+    <!-- I know it's bad practice and ugly and bullcrap! ❤❤❤ Fight Me :V ❤❤❤ -->
+    <div class="header__grid--container">
       <!-- Home Icon Link To The Group Site -->
-      <div class="header_grid_item">
+      <div class="header__grid--item">
         <a href="./grupp.html">
           <img src="./img/ss_home.svg" alt="Home icon" width="32" height="32">
         </a>
@@ -26,7 +29,7 @@
       <!-- Empty Grid Element -->
       <div></div>
       <!-- My Logo -->
-      <div class="header_grid_item">
+      <div class="header__grid--item">
         <a href="./staalnaebb_simon.html">
           <img src="./img/ss_logo.svg" alt="Logo" width="64" height="64">
         </a>
@@ -41,22 +44,14 @@
 
     <nav>
       <div>
-        <!-- Group -->
-        <a class="nav_group nav_group_styling" href="./grupp.html">Grupp 13</a>
-        <!-- Group Members -->
-        <div class="nav_grid_container">
-          <!-- Alexander Johansson -->
-          <a class="nav_grid_item" href="./johansson_alexander.html">Alexander</a>
-          <!-- Anna Sörbo -->
-          <a class="nav_grid_item" href="./sorbo_anna.html">Anna</a>
-          <!-- Harald Wallin -->
-          <a class="nav_grid_item" href="./wallin_harald.html">Harald</a>
-          <!-- Jamelah Ladero -->
-          <a class="nav_grid_item" href="./ladero_jamelah.html">Jamelah</a>
-          <!-- Leo Beischer -->
-          <a class="nav_grid_item" href="./beischer_leo.html">Leo</a>
-          <!-- Simon Stålnäbb -->
-          <a class="nav_grid_item nav_link_current" href="./staalnaebb_simon.html">Simon</a>
+        <a class="nav__grid__group nav__grid__group--styling" href="./grupp.html">Grupp 13</a>
+        <div class="nav__flex--container">
+          <a class="nav__flex--item" href="./johansson_alexander.html">Alexander</a>
+          <a class="nav__flex--item" href="./sorbo_anna.html">Anna</a>
+          <a class="nav__flex--item" href="./wallin_harald.html">Harald</a>
+          <a class="nav__flex--item" href="./ladero_Jamelah.html">Jamelah</a>
+          <a class="nav__flex--item" href="./beischer_leo.html">Leo</a>
+          <a class="nav__flex--item nav__flex__item--current" href="./staalnaebb_simon.html">Simon</a>
         </div>
       </div>
     </nav>
@@ -64,83 +59,82 @@
 
   <!-- Main Content Body -->
   <main>
-    <div class="content_container">
-      <!-- Empty Grid Element -->
-      <div></div>
+    <div class="main__content--container">
       <!-- Main Content -->
-      <div class="main_content">
+      <div>
         <!-- Selfie Picture -->
-        <img class="picture" src="./img/selfie_1.webp" alt="Bild på Simon Stålnäbb">
+        <img class="main__content--picture" src="./img/selfie_1.webp" alt="Bild på Simon Stålnäbb">
         <!-- Name Card -->
-        <div class="card">
-          <p class="topic">Namn:</p>
-          <p class="text_centered">Simon Stålnäbb</p>
+        <div class="main__content--card">
+          <p class="main__content--topic">Namn:</p>
+          <p class="main__content__text--centered">Simon Stålnäbb</p>
         </div>
         <!-- Date of Birth Card-->
-        <div class="card">
-          <p class="topic">Ålder & Födelsedag</p>
-          <p class="text_centered">25</p>
+        <div class="main__content--card">
+          <p class="main__content--topic">Ålder & Födelsedag</p>
+          <p class="main__content__text--centered">25</p>
         </div>
         <!-- Intresste Card -->
-        <div class="card">
-          <p class="topic">Intressen:</p>
-          <p class="text_centered">Matlagning, Programmering</p>
-          <p class="text_centered" style="font-weight: bold;">Samlande av:</p>
-          <p class="text_centered">Alkohol, Vin, Retro Konsoler, och Evighets Projekt</p>
+        <div class="main__content--card">
+          <p class="main__content--topic">Intressen:</p>
+          <p class="main__content__text--centered">Matlagning, Programmering</p>
+          <p class="main__content__text--centered" style="font-weight: bold;">Samlande av:</p>
+          <p class="main__content__text--centered">Alkohol, Vin, Retro Konsoler, och Evighets Projekt</p>
         </div>
         <!-- Introduction Card -->
-        <div class="card">
-          <p class="topic"> Kort Introduktion</p>
-          <p class="text">Hejsan</p>
-          <p class="text">Jag heter Simon Stålnäbb och är 25 år.</p>
-          <p class="text">Jag är uppvuxen och har bott hela mitt liv i Borlänge Dalarna.</p>
-          <p class="text">Jag är även den yngsta utav tre syskon, och är eftersläntraren av gruppen med 7 år mellan mig å min halv-bror Daniel.</p>
-          <p class="text">
+        <div class="main__content--card">
+          <p class="main__content--topic"> Kort Introduktion</p>
+          <p class="main__content--text">Hejsan</p>
+          <p class="main__content--text">Jag heter Simon Stålnäbb och är 25 år.</p>
+          <p class="main__content--text">Jag är uppvuxen och har bott hela mitt liv i Borlänge Dalarna.</p>
+          <p class="main__content--text">Jag är även den yngsta utav tre syskon, och är eftersläntraren av gruppen med 7
+            år mellan mig å min halv-bror Daniel.</p>
+          <p class="main__content--text">
             Jag har ungefär 6 års programmerings erfarenhet med allt ifrån
-            <a class="link" href="https://en.wikipedia.org/wiki/Java_(programming_language)">Java</a> och
-            <a class="link" href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)">C#</a> (primärt Java)
+            <a class="main__content--link" href="https://en.wikipedia.org/wiki/Java_(programming_language)">Java</a> och
+            <a class="main__content--link" href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)">C#</a>
+            (primärt Java)
             till
-            <a class="link" href="https://en.wikipedia.org/wiki/HTML">HTML</a>,
-            <a class="link" href="https://en.wikipedia.org/wiki/CSS">CSS</a>,
-            <a class="link" href="https://en.wikipedia.org/wiki/JavaScript">JavaScript</a> och
-            <a class="link" href="https://en.wikipedia.org/wiki/Python_(programming_language)">Python.</a>
+            <a class="main__content--link" href="https://en.wikipedia.org/wiki/HTML">HTML</a>,
+            <a class="main__content--link" href="https://en.wikipedia.org/wiki/CSS">CSS</a>,
+            <a class="main__content--link" href="https://en.wikipedia.org/wiki/JavaScript">JavaScript</a> och
+            <a class="main__content--link"
+              href="https://en.wikipedia.org/wiki/Python_(programming_language)">Python.</a>
           </p>
-          <p class="text">Detta betyder dock inte att jag är flytande i alla dess språk men jag har erfarenhet med att jobba med dem.</p>
-          <p class="text">På fritiden så programmerar jag och jobbar på diverse projekt, länkar kommer finnas nedan.</p>
-          <p class="text">Om jag inte programmerar så lagar jag nog mat eller spelar spel för det mesta.</p>
-          <p class="text">Rent utbildningsmässigt så är jag utbildad catering kock och kallskänka (slaktare), men har även studerat underhållsteknik och historia.</p>
-          <hr class="intro_hr">
-          <p class="text"></p>
+          <p class="main__content--text">Detta betyder dock inte att jag är flytande i alla dess språk men jag har
+            erfarenhet med att jobba med dem.</p>
+          <p class="main__content--text">På fritiden så programmerar jag och jobbar på diverse projekt, länkar kommer
+            finnas nedan.</p>
+          <p class="main__content--text">Om jag inte programmerar så lagar jag nog mat eller spelar spel för det mesta.
+          </p>
+          <p class="main__content--text">Rent utbildningsmässigt så är jag utbildad catering kock och kallskänka
+            (slaktare), men har även studerat underhållsteknik och historia.</p>
+          <hr class="main__intro--hr">
+          <p class="main__content--text"></p>
           <!-- My Projects -->
-          <p class="topic">Några av projekten jag arbetar på / contributar till:</p>
-          <p class="text_centered final_links">
-            <a class="link" href="https://github.com/ParchmentMC/Parchment">Parchment</a>,
-            <a class="link" href="https://github.com/The-Acronym-Coders/Epos">Epos</a>,
-            <a class="link" href="https://github.com/InnovativeOnlineIndustries/Titanium">Titanium</a>,
-            <a class="link" href="https://github.com/MinecraftForge/MinecraftForge">Forge</a>
+          <p class="main__content--topic">Några av projekten jag arbetar på / contributar till:</p>
+          <p class="main__content__text--centered main__content__link--final">
+            <a class="main__content--link" href="https://github.com/ParchmentMC/Parchment">Parchment</a>,
+            <a class="main__content--link" href="https://github.com/The-Acronym-Coders/Epos">Epos</a>,
+            <a class="main__content--link" href="https://github.com/InnovativeOnlineIndustries/Titanium">Titanium</a>,
+            <a class="main__content--link" href="https://github.com/MinecraftForge/MinecraftForge">Forge</a>
           </p>
         </div>
       </div>
     </div>
-    <!--Spacer Element-->
-    <div class="spacer"></div>
   </main>
 
   <!--Footer Body-->
   <footer class="footer-base">
-    <div class="nav_grid_container">
+    <div class="nav__flex--container">
       <!-- Group Members Emails -->
-      <p class="nav_grid_item validated_icon">
+      <p class="nav__flex--item footer__icon--validated">
         <a href="http://jigsaw.w3.org/css-validator/check/referer">
           <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
-            alt="Valid CSS!" />
+            draggable="false" alt="Valid CSS!" />
         </a>
       </p>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <a class="nav_grid_item footer_links" href="mailto:h21simos@du.se">h21simos@du.se</a>
+      <a class="footer__nav__flex--item footer__links" href="mailto:h21simos@du.se">h21simos@du.se</a>
     </div>
   </footer>
 </body>

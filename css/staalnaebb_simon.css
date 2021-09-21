@@ -2,39 +2,47 @@
 body {
   padding: 0;
   margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  background-color: rgba(110, 110, 110, 0.8);
+  flex-grow: 1;
 }
 
 /** Header CSS **/
 /** Grid Container **/
-.header_grid_container {
+.header__grid--container {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto auto;
   background-color: rgba(44, 44, 44, 0.8);
 }
 
 /** Grid Item **/
-.header_grid_item {
+.header__grid--item {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 /** Grid Logo **/
-.header_grid_item:nth-child(4) {
+.header__grid--item:nth-child(4) {
   align-items: initial;
   justify-content: initial;
   padding-left: 35%;
 }
 
 /** Nav Group Container **/
-.nav_group {
+.nav__grid__group {
   display: grid;
   grid-template-columns: auto;
   background-color: rgba(66, 66, 66, 0.8);
 }
 
 /** Nav Group Styling **/
-.nav_group_styling {
+.nav__grid__group--styling {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -52,14 +60,13 @@ body {
 }
 
 /** Nav Grid Container **/
-.nav_grid_container {
-  display: grid;
-  grid-template-columns: auto auto auto auto auto auto;
+.nav__flex--container {
+  display: flex;
   background-color: rgba(88, 88, 88, 0.8);
 }
 
 /** Nav Grid Item **/
-.nav_grid_item {
+.nav__flex--item {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -78,51 +85,50 @@ body {
   border-width: 1px 0px 1px 1px;
   padding-left: 5px;
   padding-right: 5px;
+  flex: 1 1 0px;
+}
+
+.nav__flex--item:hover {
+  box-shadow: inset 0 -0.3rem rgb(66, 66, 66);
 }
 
 /** Current Nav Grid Item **/
-.nav_link_current {
+.nav__flex__item--current {
   box-shadow: inset 0 -0.3rem rgb(66, 66, 66);
   border-width: 1px 0px 1px 1px;
 }
 
-/** Main Content Container **/
-.content_container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  background-color: rgba(110, 110, 110, 0.8);
-}
-
 /** Main Content **/
-.main_content {
-  align-items: center;
-  justify-content: center;
+.main__content--container {
+  margin: auto;
+  width: 1200px;
 }
 
 /** Picture Content **/
-.picture {
+.main__content--picture {
+  display: flex;
   float: left;
-  width: 20%;
+  width: 250px;
   margin: 10px;
-  margin-top: 13px;
+  margin-top: 0;
   border-radius: 10px;
 }
 
 /** Card Content **/
-.card {
+.main__content--card {
   background-color: rgba(166, 166, 166, 0.8);
   border-radius: 10px;
   padding-left: 10px;
-  margin-left: 22%;
+  margin-left: 275px;
 }
 
 /** Final Card **/
-.card:last-child {
+.main__content--card:last-child {
   margin-bottom: 16px;
 }
 
 /** Topic **/
-.topic {
+.main__content--topic {
   font-size: 20px;
   font-weight: bold;
   text-align: center;
@@ -132,51 +138,69 @@ body {
 }
 
 /** Remove Paragraph Margin **/
-.text {
+.main__content--text {
  margin: 0;
  margin-bottom: 2px;
 }
 
 /** Centered Text + Margin Bottom 0 **/
-.text_centered {
+.main__content__text--centered {
   text-align: center;
   margin-bottom: 0px;
 }
 
-/** Create Scrollable Card Box **/
-.scrollable {
-  max-height: 670px;
-  overflow: auto;
-}
-
 /** Horizontal Line Fix **/
-.intro_hr {
+.main__intro--hr {
   margin-right: 10px;
   color: black;
 }
 
 /** Ensure Links are Black and not Purple **/
-.link {
+.main__content--link {
   color: black;
 }
 
 /** Add Bottom-Padding to the Project Links **/
-.final_links {
+.main__content__link--final {
   padding-bottom: 32px;
 }
 
-/** Spacer Styling **/
-.spacer {
-  background-color: rgba(110, 110, 110, 0.8);
-}
-
 /** Footer Links -> Lower-Case **/
-.footer_links {
+.footer__links {
   text-transform: lowercase;
+  border-left: 0px;
 }
 
-.validated_icon {
+.footer__icon--validated {
+  position: relative;
   border-width: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
+}
+
+.footer__icon--validated a img {
+  position: absolute;
+  transform: translateY(-50%);
+}
+
+.footer__nav__flex--item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 64px;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 4.27;
+  letter-spacing: 2px;
+  text-align: center;
+  justify-content: center;
+  color: whitesmoke;
+  border-style:solid;
+  border-color: rgb(22, 22, 22, 0.2);
+  border-width: 0px 0px 0px 0px;
+  padding-left: 5px;
+  padding-right: 5px;
+  flex: 1 1 0px;
 }
