@@ -106,6 +106,7 @@ main {
 
 /** Picture Content **/
 .main__content--picture {
+  display: flex;
   float: left;
   width: 250px;
   margin: 10px;
