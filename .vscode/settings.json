@@ -5,4 +5,5 @@
     "workbench.colorCustomizations": {
         "[Default Dark+]": {}
     },
+    "liveServer.settings.port": 5501,
 }
