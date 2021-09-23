@@ -3,13 +3,9 @@
 
 :root {
     --color-1:rgb(252, 104, 148);
-    --color-2:rgb(18, 209, 171);
-    --color-3:hsl( 291, 3, 42);
-    --color-4:hsl( 240, 5, 11);
-    --color-5:hsl( 250, 250, 250);
-    --color-6: #262e27;
+    --color-2: #262e27;
     --bg: rgb(250, 250, 250);
-    --text: hsl(0, 0, 0);
+    --text: rgb(0, 0, 0);
 }
 
 /* GENERIC*/
@@ -94,7 +90,7 @@ body {
     font-family: bradley hand itc;
     font-size: 8rem;
     font-weight: 400;
-    color: var(--color-6);
+    color: var(--color-2);
     text-transform: uppercase;
     margin-bottom: 2rem;
 }

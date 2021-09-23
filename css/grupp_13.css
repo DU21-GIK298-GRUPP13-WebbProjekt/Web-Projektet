@@ -241,17 +241,7 @@ p::selection, h4::selection {
     color:var(--text)
 }
 
-.footer__link:visited 
-{
-
-}
-
 .footer__link:hover 
 {
     color: var(--main);
-}
-  
-.footer__link::active 
-{
-
 }
