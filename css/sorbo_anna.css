@@ -1,5 +1,6 @@
 
 /*CUSTOM PROPERTIES*/
+
 :root {
     --color-1:rgb(252, 104, 148);
     --color-2:rgb(18, 209, 171);
@@ -10,7 +11,9 @@
     --bg: rgb(250, 250, 250);
     --text: hsl(0, 0, 0);
 }
+
 /* GENERIC*/
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -22,40 +25,34 @@ html {
 }
 
 body {
-    /*font-family: Arial, Helvetica, sans-serif;*/
-    font-family: bradley hand itc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: var(--text);
     background-color: var(--bg);
 }
 
 .container {
     max-width: 1280px;
-    margin-bottom: 0 auto;
+    margin: 0 auto;
 }
 
 
-/*
-::selection {
-    color: var(--color-4);
-    background-color: var(--color-5);
-}
-*/
   /* NAVIGATION */
+
 .nav {
-   
     display: flex;  
     align-items: flex-end;
     height: 30rem;
-    background-image: url(../img/blommor.webp);
-    font-size: 3rem;
-    text-decoration: none;
-     
+    background-image: url(../img/blommor.webp); 
+    background-size: cover;   
 }
 
 .nav_links {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    font-family: Bradley hand itc;
+    font-size: 3rem;
+    text-decoration: none;
 }
 
 .nav_group {
@@ -66,43 +63,38 @@ body {
     display: block;
     font-size: 2rem;
     letter-spacing: 1px;
-    color: white;
+    color: var(--bg);
     text-transform: uppercase;
     text-decoration: none;
-    padding: 4rem 2rem;
+    padding: 2rem 1rem;    
 }
 
-.nav_link:hover{
-    color: pink;
+.nav_link:hover {
+    color: pink;    
 }
 
-/*
-.nav_link__current {
-    color: rgb(160, 187, 51);
-    box-shadow: inset 0 -0.6rem var(--color-3);
+.nav_link_current {
+    box-shadow: inset 0 -0.5rem var(--color-1);
 }
-*/
 
 /* ANNA SECTION */
 
 .anna {
-    margin-top: 12rem;
-    
+    margin-top: 12rem;    
 }
 
 .anna__intro {
     width: 66%;
     padding-left: 5rem;
     padding-bottom: 2rem;
-    border-left: 1rem solid var(--color-1);
+    border-left: .1rem solid #262e27;
 }
-
 
 .anna__heading {
     font-family: bradley hand itc;
-    font-size: 12rem;
-    font-weight: normal;
-    color: var(--color-1);
+    font-size: 8rem;
+    font-weight: 400;
+    color: var(--color-6);
     text-transform: uppercase;
     margin-bottom: 2rem;
 }
@@ -110,6 +102,7 @@ body {
 .anna__summary {
     font-size: 2.8rem;
     font-weight: 100;
+    font-family: Bradley hand itc;
     letter-spacing: 1px;
     color: var(--color-1);
 }
@@ -117,78 +110,74 @@ body {
 .anna__content {
     display: flex;
     justify-content: space-between;
-    margin-top: 8rem;
+    margin-top: 12rem;
 }
 
-.anna__image
- {
-    width: 30%;
+.anna__image{
+    width: 28%;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    padding-left: 4rem;
+    padding-right: 4rem;
 }
 
-
 .anna__text {
+    width: 48%;
     max-height: 50rem;
     padding-right: 3rem;
     padding-left: 3rem;
-    border-left: 2rem;
-    overflow-y: scroll;
+    border-left: .1rem solid var(--color-1);
 }
 
-.anna__paragraph{
-    font-size: 1.8rem;
-    line-height: 1.6;
-    margin-bottom: 2rem;
-    font-family: Bradley hand itc;
+.anna__paragraph {
+    font-size: 2rem;
+    line-height: 1.4;
+    margin-bottom: 4rem;
 }
-.anna__paragraph:first-child::first-letter{
-    float: left;
+
+.anna__paragraph:first-child::first-letter {
     font-family: Bradley hand itc;
+    float: left;
     color:var(--color-1);
     font-size: 9.6rem;
     font-weight: 900;
     line-height: 60px;
     padding-top: 1rem;
-    padding-right: 1rem;
-    
+    padding-right: 2rem;    
+}
+
+.a__link {
+    font-family: Bradley hand itc;
+    font-size: 2rem;
+    color: #262e27;
+    text-decoration: none;
+}
+
+.a__link:hover {
+    color: pink;    
 }
 
 /*FOOTER*/
 
-.footer{
+.footer {
     background-color:#262e27;
     padding-top: 6rem;
     padding-bottom: 4rem;
-    margin-top: 20rem;
-}
-.footer__list {
-    display: flex;
-    flex-wrap: wrap;
-    list-style-type: none;
-    width: 60%;
-    margin: 0 auto;
+    margin-top: 10rem;
 }
 
-.footer__link {
+.footer__link,
+.contact {
     display: block;
     font-family: Bradley hand itc;
     font-size: 2rem;
-    color: white;
+    color: var(--bg);
     text-align: center;
     text-decoration: none;
     padding: 0.5rem 1rem;
     margin-bottom: 3rem;
 }
 
-.footer__item { 
-    font-family: Bradley hand itc;
-    font-size: 2rem;
-    color: white;
-    text-align: center;
-
-
-
+.footer__link:hover {
+    color: pink;
 }
 
